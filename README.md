@@ -1,3 +1,3 @@
-# Model of **bai**
+# Model of __bai__
 [![image](https://r.resimlink.com/h8f9_zPND.png)](https://resimlink.com/h8f9_zPND)
 
