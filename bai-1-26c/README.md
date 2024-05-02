@@ -13,7 +13,7 @@
 
 # Kullanım / Usage
 
-'''python
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -66,4 +66,4 @@ plt.ylabel('Tahmin')
 plt.title('Düşünce Tahmini')
 plt.legend(title='Lejant', loc='center left', bbox_to_anchor=(1, 0.5))
 plt.show()
-'''
+```
