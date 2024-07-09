@@ -46,9 +46,9 @@ model = load_model(model_path)
 model_name = model_path.split('/')[-1].split('.')[0]
 
 plt.figure(figsize=(10, 6))
-plt.title(f'Duygu Tahmini ({model_name})')
-plt.xlabel('Zaman')
-plt.ylabel('Sınıf')
+plt.title(f'Emotion Prediction ({model_name})')
+plt.xlabel('Time')
+plt.ylabel('Class')
 plt.legend(loc='upper right')
 plt.grid(True)
 plt.show()
