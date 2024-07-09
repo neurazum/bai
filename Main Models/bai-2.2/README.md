@@ -33,7 +33,7 @@ model = load_model(model_path)
 model_name = model_path.split('/')[-1].split('.')[0]
 
 plt.figure(figsize=(10, 6))
-plt.title(f'Duygu Tahmini ({model_name}.1)')
+plt.title(f'Duygu Tahmini ({model_name}.2)')
 plt.xlabel('Zaman')
 plt.ylabel('Sınıf')
 plt.legend(loc='upper right')
