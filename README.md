@@ -1,10 +1,3 @@
-# **bai** Modelleri
-[![image](https://r.resimlink.com/h8f9_zPND.png)](https://resimlink.com/h8f9_zPND)
-
-bai modelleri Neurazum projesine ait bir EEG verisi okuması üzerine eğitilen yapay zekaya aittir. Bu modeller şimdilik hazır veri setlerini okumak üzere eğitilmiştir. Her modelin kendine ait farklı özellikleri vardır. Bu modelimiz sadece demodur. Projemiz hakkında bilgi edinmek isterseniz LinkedIn profilimize göz atabilirsiniz: https://www.linkedin.com/company/neurazum
-(TÜRKÇESİ YAKINDA GELECEKTİR)
-## ----------------------------------------------------------------------------------------
-
 # bai Models
 
 ## Model Details
@@ -26,7 +19,8 @@ bai modelleri Neurazum projesine ait bir EEG verisi okuması üzerine eğitilen 
 - _To warn dangerous patients such as epilepsy and MS early before the seizure and to take the necessary precautions,_
 - _Early diagnosis for Alzheimer's patients and the bai model helps the person by memorising forgotten words,_
 - _Development of mind-controlled games for players,_
-- _Development of a voice assistant that can be used in everyday life._
+- _Development of a voice assistant that can be used in everyday life,_
+- _Reducing the margin of error in disease diagnosis thanks to the 12 cranial nerves in the human body._
 
 ## Direct Uses
 
