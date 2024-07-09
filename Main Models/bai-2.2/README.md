@@ -1,4 +1,4 @@
-# bai-2.2 (338787 parametre)
+# bai-2.2 (164790 parametre)
 
 ## bai-2.0 ve 2.1 sürümlerinin daha hızlı ve optimize edilmiş versiyonudur. Tüm işlevleri aynıdır.
 
@@ -6,7 +6,7 @@
 
 ## -----------------------------------------------------------------------------------
 
-# bai-2.2 (338787 parameters)
+# bai-2.2 (164790 parameters)
 
 ## It is a faster and optimized version of bai-2.0 and 2.1. All functions are the same.
 
