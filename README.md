@@ -501,7 +501,7 @@ class MainWindow(QMainWindow):
         self.ax1.fill_between(self.x, data, where=((self.x >= 30) & (self.x <= 100)), color='purple', alpha=1)
 
         self.ax1.legend(handles=self.legend_elements, loc='upper right')
-        self.ax1.set_ylabel('Value (dB)')
+        self.ax1.set_ylabel('Amplitude (uV)')
         self.ax1.set_xlabel('Frequency (Hz)')
         self.ax1.set_title('Frequency and mV')
 
