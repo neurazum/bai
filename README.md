@@ -18,7 +18,7 @@
 - _Kişinin duygusunu anlık olarak analiz etmek,_
 - _Epilepsi ve MS gibi tehlikeli hastalıkları nöbet öncesi erken uyarmak ve gerekli önlemleri almak,_
 - _Alzheimer hastaları için erken teşhis ve unutulan kelimeleri bai modeline aktararak hafızada tutmak,_
-- _Günlük hayatta kullanılabilecek bir sesli yapay zeka asistanının geliştirilmesi._
+- _Günlük hayatta kullanılabilecek bir sesli yapay zeka asistanının geliştirilmesi,_
 - _İnsan vücudunda bulunan 12 adet kraniyal sinir sayesinde hastalık teşhisinde hata payının azaltılması._
 
 ## Direkt Kullanımlar
@@ -280,9 +280,11 @@ print(f'Doğruluk: %{accuracy * 100:.5f}')
 
 ## Değerlendirme
 
-- bai-2.0 (Doğruluk oranı çok yüksek = %97,93621013133208)(DUYGUSAL SINIFLANDIRMA) (OTONOM MODEL) (Overfitting ihtimali yüksek)
-- bai-2.1 (Doğruluk oranı çok yüksek = %97,93621013133208)(DUYGUSAL SINIFLANDIRMA) (OTONOM MODEL) (Overfitting ihtimali düşük)
-- bai-2.2 (Doğruluk oranı çok yüksek = %94,8874296435272)(DUYGUSAL SINIFLANDIRMA) (OTONOM MODEL) (Overfitting ihtimali düşük)
+- bai-2.0 => (Doğruluk oranı çok yüksek = %97,93621013133208) (DUYGUSAL SINIFLANDIRMA)
+- bai-2.1 => (Doğruluk oranı çok yüksek = %97,93621013133208) (DUYGUSAL SINIFLANDIRMA)
+- bai-2.2 => (Doğruluk oranı çok yüksek = %94,8874296435272) (DUYGUSAL SINIFLANDIRMA)
+- bai-3.0 Emotion => (Doğruluk oranı çok yüksek = %97,79549718574108) (DUYGUSAL SINIFLANDIRMA)
+- bai-3.0 Epilepsy => (Doğruluk oranı yüksek = %68,90829694323143) (EPİLEPSİ NÖBET TESPİTİ)
 
 ### Sonuçlar
 
@@ -605,9 +607,11 @@ print(f'Accuracy: %{accuracy * 100:.5f}')
 
 ## Evaluation
 
-- bai-2.0 (Accuracy very high = %97,93621013133208)(EMOTIONAL CLASSIFICATION) (AUTONOMOUS MODEL) (High probability of OVERFITTING)
-- bai-2.1 (Accuracy very high = %97,93621013133208)(EMOTIONAL CLASSIFICATION) (AUTONOMOUS MODEL) (Low probability of OVERFITTING)
-- bai-2.2 (Accuracy very high = %94,8874296435272)(EMOTIONAL CLASSIFICATION) (AUTONOMOUS MODEL) (Low probability of OVERFITTING)
+- bai-2.0 => (Accuracy very high = %97,93621013133208) (EMOTIONAL CLASSIFICATION)
+- bai-2.1 => (Accuracy very high = %97,93621013133208) (EMOTIONAL CLASSIFICATION)
+- bai-2.2 => (Accuracy very high = %94,8874296435272) (EMOTIONAL CLASSIFICATION)
+- bai-3.0 Emotion => (Accuracy very high = %97,79549718574108) (EMOTIONAL CLASSIFICATION)
+- bai-3.0 Epilepsy => (Accuracy high = %68,90829694323143) (SEIZURE DETECTION)
 
 ### Results
 
