@@ -13,7 +13,7 @@
 #### NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict epilepsy seizure state in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
 **Doğruluk/Accuracy: %68,90829694323143**
 
-![](https://youtu.be/qUkId3S9W94)
+[![bai-3.0](https://img.youtube.com/vi/qUkId3S9W94/0.jpg)](https://www.youtube.com/watch?v=qUkId3S9W94)
 
 # Kullanım / Usage
 
