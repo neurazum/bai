@@ -13,7 +13,7 @@
 ## NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict emotions in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
 **Doğruluk/Accuracy: %97,79549718574108**
 
-![](https://youtu.be/qUkId3S9W94)
+<iframe width="1271" height="715" src="https://www.youtube.com/embed/qUkId3S9W94" title="bai Modelleri Tanıtım Videosu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Kullanım / Usage
 
