@@ -285,6 +285,7 @@ print(f'Doğruluk: %{accuracy * 100:.5f}')
 - bai-2.2 => (Doğruluk oranı çok yüksek = %94,8874296435272) (DUYGUSAL SINIFLANDIRMA)
 - bai-3.0 Emotion => (Doğruluk oranı çok yüksek = %97,79549718574108) (DUYGUSAL SINIFLANDIRMA)
 - bai-3.0 Epilepsy => (Doğruluk oranı yüksek = %68,90829694323143) (EPİLEPSİ NÖBET TESPİTİ)
+- bai-3.1 Emotion => (Doğruluk oranı çok yüksek = %95,1219512195122) (DUYGUSAL SINIFLANDIRMA)
 
 ### Sonuçlar
 
@@ -612,6 +613,7 @@ print(f'Accuracy: %{accuracy * 100:.5f}')
 - bai-2.2 => (Accuracy very high = %94,8874296435272) (EMOTIONAL CLASSIFICATION)
 - bai-3.0 Emotion => (Accuracy very high = %97,79549718574108) (EMOTIONAL CLASSIFICATION)
 - bai-3.0 Epilepsy => (Accuracy high = %68,90829694323143) (SEIZURE DETECTION)
+- bai-3.1 Emotion => (Accuracy very high = %95,1219512195122) (EMOTIONAL CLASSIFICATION)
 
 ### Results
 
