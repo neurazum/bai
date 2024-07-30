@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-# bai-3.1 Emotion (3549313 parametre)
-
-## "bai-3.1 Emotion" modeli, bir önceki sürümüne göre daha optimize ve kararlı hale getirilmiş versiyonudur. Tüm işlevleri aynıdır.
-
-#### NOT: Gerçek zamanlı EEG veri takibi uygulamasına modeli entegre ederseniz, gerçek zamanlı olarak duygu tahmini yapabilmektedir. Uygulamaya erişebilmek için: https://github.com/neurazum/Realtime-EEG-Monitoring
-
-## -----------------------------------------------------------------------------------
-
-# bai-3.1 Emotion (3549313 parameters)
-
-## The "bai-3.1 Emotion" model is a more optimized and stable version compared to the previous version. All functions are the same.
-
-## NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict emotions in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
-**Doğruluk/Accuracy: %95,1219512195122**
-
-[![bai-3.0](https://img.youtube.com/vi/qUkId3S9W94/0.jpg)](https://www.youtube.com/watch?v=qUkId3S9W94)
-
-# Kullanım / Usage
-=======
 # bai Modelleri
 
 ## Model Detayları
@@ -44,7 +24,6 @@
 ## Direkt Kullanımlar
 
 **Klasik Kullanım:**
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
 
 ```python
 import numpy as np
@@ -53,22 +32,14 @@ from sklearn.preprocessing import StandardScaler
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 
-<<<<<<< HEAD
-model_path = 'model-path'
-=======
 model_path = 'model-yolu'
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
 
 model = load_model(model_path)
 
 model_name = model_path.split('/')[-1].split('.')[0]
 
 plt.figure(figsize=(10, 6))
-<<<<<<< HEAD
-plt.title(f'Duygu Tahmini ({model_name}.1)')
-=======
 plt.title(f'Duygu Tahmini ({model_name})')
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
 plt.xlabel('Zaman')
 plt.ylabel('Sınıf')
 plt.legend(loc='upper right')
@@ -77,11 +48,7 @@ plt.show()
 model.summary()
 ```
 
-<<<<<<< HEAD
-# Tahmin / Prediction
-=======
 **Tahmin Testi:**
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
 
 ```python
 import numpy as np
@@ -89,11 +56,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from tensorflow.keras.models import load_model
 
-<<<<<<< HEAD
-model_path = 'model-path'
-=======
 model_path = 'model-yolu'
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
 
 model = load_model(model_path)
 
@@ -114,10 +77,7 @@ new_prediction = model.predict(new_input_reshaped)
 predicted_label = np.argmax(new_prediction, axis=1)[0]
 predicted_emotion = label_mapping_reverse[predicted_label]
 
-<<<<<<< HEAD
-=======
 # TR Lang
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
 if predicted_emotion == 'NEGATIVE':
     predicted_emotion = 'Negatif'
 elif predicted_emotion == 'NEUTRAL':
@@ -125,26 +85,6 @@ elif predicted_emotion == 'NEUTRAL':
 elif predicted_emotion == 'POSITIVE':
     predicted_emotion = 'Pozitif'
 
-<<<<<<< HEAD
-print(f'Giriş Verileri: {new_input}')
-print(f'Tahmin Edilen Duygu: {predicted_emotion}')
-```
-
-# Python Sürümü / Python Version
-
-### 3.9 &lt;=&gt; 3.13
-
-# Modüller / Modules
-
-```bash
-matplotlib==3.8.0
-matplotlib-inline==0.1.6
-numpy==1.26.4
-pandas==2.2.2
-scikit-learn==1.3.1
-tensorflow==2.15.0
-```
-=======
 print(f'Girilen Veri: {new_input}')
 print(f'Tahmin Edilen Duygu: {predicted_emotion}')
 ```
@@ -335,7 +275,7 @@ print(f'Doğruluk: %{accuracy * 100:.5f}')
 - ```bash
   pip install -r requirements.txt
   ```
-- Örnek kullanımla modelin ve veritinin yolunu yerleştirin.
+- Örnek kullanımla modelin ve veri setinin yolunu yerleştirin.
 - Ve dosyayı çalıştırın.
 
 ## Değerlendirme
@@ -383,7 +323,7 @@ Eyüp İpler - https://www.linkedin.com/in/eyupipler/
 
 neurazum@gmail.com
 
-# ---------------------------------------
+# --------------------------------------
 
 # bai Models
 
@@ -710,4 +650,3 @@ Eyüp İpler - https://www.linkedin.com/in/eyupipler/
 ### Contact
 
 neurazum@gmail.com
->>>>>>> 6ac086dc8aab5a8c0d82c2fc8fd4438ecba43190
