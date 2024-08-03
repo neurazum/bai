@@ -10,7 +10,7 @@
 
 ## The "bai-3.1 Emotion" model is a more optimized and stable version compared to the previous version. All functions are the same.
 
-## NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict emotions in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
+#### NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict emotions in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
 **Doğruluk/Accuracy: %95,1219512195122**
 
 [![bai-3.0](https://img.youtube.com/vi/qUkId3S9W94/0.jpg)](https://www.youtube.com/watch?v=qUkId3S9W94)
