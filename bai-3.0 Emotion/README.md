@@ -10,7 +10,7 @@
 
 ## The "bai-3.0 Emotion" model is the world's third largest artificial intelligence model trained on EEG. It analyzes the person's emotional state.
 
-## NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict emotions in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
+#### NOTE: If you integrate the model into a real-time EEG data tracking application, it can predict emotions in real time. To access the application: https://github.com/neurazum/Realtime-EEG-Monitoring
 **Doğruluk/Accuracy: %97,79549718574108**
 
 # Kullanım / Usage
